@@ -5,7 +5,7 @@ Built with Gulp, Sass, jQuery, and Slick slider:
 Scss and Js under `/app`
 
 ## Note:
-Some images are not large enough larger mobile devices, such as the accessories category image and the mobile image for the promo section. In the case of the promo I default to the fullsized image to avoid pixelation but the top and bottom of the image are cut short. In the case of the accessories image there is not an alternative and image integrity is lost.
+Some images are not large enough for larger mobile devices such as the accessories category image and the mobile image for the promo section. In the case of the promo I default to the fullsized image to avoid pixelation but the top and bottom of the image are cut short. In the case of the accessories image there is not an alternative and image integrity is lost.
 
 Also, for the sake of keeping the demo short I did not build resize functions into javascript.
 
