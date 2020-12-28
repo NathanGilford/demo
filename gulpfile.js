@@ -53,3 +53,7 @@ exports.default = series(
     parallel(scssTask, jsTask),
     watchTask
 );
+
+function build() {
+    parallel(scssTask, jsTask)
+}
