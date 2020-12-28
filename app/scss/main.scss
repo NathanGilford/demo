@@ -483,7 +483,8 @@ header {
         .category {
             width: 48%;
             position: relative;
-
+    
+            .hvr-shadow,
             img {width: 100%;}
             #fullsized-img {display: none;}
         }
@@ -504,7 +505,6 @@ header {
         @media screen and (min-width: $screen-md-min) {
             .category {
                 width: 31%;
-                .hvr-shadow { width: 100%; }
                 #fullsized-img {display: block;}
                 #mobile-img {display: none;}
             }
