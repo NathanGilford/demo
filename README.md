@@ -9,6 +9,8 @@ Some images are not large enough larger mobile devices, such as the accessories 
 
 Also, for the sake of keeping the demo short I did not build resize functions into javascript.
 
+I would typically use some sort of grid library (Bulma is my favorite) but as Bootstrap is not allowed I assumed this applied to every library that uses a grid. 
+
 # Liquid Questions
 
 ### 1. Describe how you would make a line of text in a homepage section editable from theme customization and how you would access this in liquid.
