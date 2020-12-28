@@ -4,6 +4,9 @@ Demo for Dyode
 Built with Gulp, Sass, jQuery, and Slick slider:
 Scss and Js under `/app`
 
+## Note:
+some images are not large enough larger mobile devices, such as the accessories category image and the mobile image for the promo section. In the case of the promo I default to the fullsized image to avoid pixelation but the top and bottom of the image are cut short. In the case of the accessories image there is not an alternative and image integrity is lost.
+
 # Liquid Questions
 
 ### 1. Describe how you would make a line of text in a homepage section editable from theme customization and how you would access this in liquid.
