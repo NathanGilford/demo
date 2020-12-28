@@ -47,16 +47,10 @@ function watchTask() {
     );
 }
 
-// build
-
-function build() {
-    parallel(scssTask, jsTask)
-}
-
 // default
 
 exports.default = series(
     parallel(scssTask, jsTask),
     watchTask
 );
-exports.build = build;
+exports.build = parallel(scssTask, jsTask);
